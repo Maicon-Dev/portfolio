@@ -1,8 +1,8 @@
 <template>
-  <v-app>
+  <v-app style="background-color: rgba(24,16,44,1)">
     <v-app-bar
       app
-      color="primary"
+      color="rgba(134,37,210, 0)"
       dark
     >
       <div class="d-flex align-center">
@@ -10,30 +10,36 @@
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          src="https://image.flaticon.com/icons/png/512/1443/1443033.png"
           transition="scale-transition"
           width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
         />
       </div>
 
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
         text
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <span class="mr-2">Home</span>
+      </v-btn>
+
+      <v-btn
+        text
+      >
+        <span class="mr-2">Sobre mim</span>
+      </v-btn>
+
+      <v-btn
+        text
+      >
+        <span class="mr-2">Meus projetos</span>
+      </v-btn>
+
+      <v-btn
+        text
+      >
+        <span class="mr-2">Currículo</span>
       </v-btn>
     </v-app-bar>
 
