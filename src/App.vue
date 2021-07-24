@@ -1,13 +1,13 @@
 <template>
-  <v-app style="background-color: rgba(24,16,44,1)">
+  <v-app>
     <v-app-bar
       app
-      color="rgba(134,37,210, 0)"
+      color="rgba(134,37,210, 0.05)"
       dark
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
+          alt="Home logo"
           class="shrink mr-2"
           contain
           src="https://image.flaticon.com/icons/png/512/1443/1443033.png"
@@ -59,3 +59,14 @@ export default {
   }),
 };
 </script>
+
+<style>
+  #app {
+    background-color: rgba(24,16,44,1);
+    align-items: center;
+  }
+
+  .v-main {
+    overflow: hidden;
+  }
+</style>
