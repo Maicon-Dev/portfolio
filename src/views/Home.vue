@@ -53,7 +53,7 @@
 	}
 
 	h2 {
-		font-size: 7.5vh;
+		font-size: 5.9vh;
 	}
 
 	.row {
