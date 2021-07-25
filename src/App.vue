@@ -22,4 +22,8 @@
 		background-color: rgba(24, 16, 44, 1);
 		align-items: center;
 	}
+
+	a {
+		text-decoration: none;
+	}
 </style>
