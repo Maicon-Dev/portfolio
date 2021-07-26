@@ -13,7 +13,7 @@ import Mobile from './BarMobile.vue'
 import Desktop from './BarDesktop.vue'
 export default {
 	data: () => ( {
-    displaySize: window.screen.width
+    displaySize: window.innerWidth,
   }),
 
 	components: {
