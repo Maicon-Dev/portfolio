@@ -1,5 +1,5 @@
 <template>
-	<v-app-bar app color="rgba(134,37,210, 0.05)" dark>
+	<v-app-bar hide-on-scroll="true" app color="rgba(134,37,210, 0.05)" dark>
 		<div class="d-flex align-center">
 			<v-img
 				alt="Home logo"
