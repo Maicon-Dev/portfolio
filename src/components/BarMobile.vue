@@ -13,7 +13,7 @@
 
 		<v-spacer></v-spacer>
 
-		<v-menu left offset-x="offset">
+		<v-menu transition="scroll-x-reverse-transition" left offset-x="offset">
 			<template v-slot:activator="{ on, attrs }">
 				<v-app-bar-nav-icon dark v-bind="attrs" v-on="on" />
 			</template>
