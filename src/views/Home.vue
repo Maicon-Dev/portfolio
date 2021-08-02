@@ -1,31 +1,39 @@
 <template>
 	<v-app>
 		<Bar />
-		<v-container>
-			<v-row>
-				<v-col class="descricao">
-					<h1>&lt; 🖖🏻 /&gt;</h1>
-					<h1>
-						<span id="intro">Olá, meu nome é</span>
-						<h2>Maicon de Morais</h2>
-					</h1>
+		<v-main>
+			<v-container>
+				<v-row>
+					<v-col class="descricao">
+						<h1>&lt; 🖖🏻 /&gt;</h1>
+						<h1>
+							<span id="intro">Olá, meu nome é</span>
+							<h2>Maicon de Morais</h2>
+						</h1>
 
-					<p>
-						➢ Sou desenvolvedor web <br />
-						➢ Focado atualmente em frontend
-					</p>
+						<p>
+							➢ Sou desenvolvedor web <br />
+							➢ Focado atualmente em frontend
+						</p>
 
-					<router-link to="/Projetos">
-						<v-btn dark color="#441a61"> Meus projetos </v-btn>
-					</router-link>
-				</v-col>
-				<v-col id="img">
-					<v-img id="imagem" :src="require('../assets/home_image.svg')" />
-				</v-col>
-			</v-row>
-		</v-container>
-
-		<Footer />
+						<router-link to="/Projetos">
+							<v-btn 
+								dark color="#441a61"
+								x-large
+								rounded
+								class="pa-7"
+							> 
+								Meus projetos 
+							</v-btn>
+						</router-link>
+					</v-col>
+					<v-col id="img">
+						<v-img id="imagem" :src="require('../assets/home_image.svg')" />
+					</v-col>
+				</v-row>
+			</v-container>
+			<Footer/>
+		</v-main>
 	</v-app>
 </template>
 
@@ -63,5 +71,8 @@
 
 	p {
 		font-size: 3vh;
+	}
+	.v-main {
+		align-items: center;
 	}
 </style>
