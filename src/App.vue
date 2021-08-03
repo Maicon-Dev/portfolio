@@ -26,7 +26,6 @@
 	}
 	.v-main {
 		max-height: 100%;
-		scrollbar-color: red;
 	}
 	a {
 		text-decoration: none;

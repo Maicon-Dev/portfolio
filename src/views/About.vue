@@ -15,7 +15,7 @@
 								vuetify, vuex, vue router
 							</li>
 							<li>
-								Apesar de ter experiência com JAvascript e derivados (Vue por
+								Apesar de ter experiência com Javascript e derivados (Vue por
 								exemplo) ainda estou solidificando o conhecimento
 							</li>
 						</ul>
