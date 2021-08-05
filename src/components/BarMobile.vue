@@ -1,5 +1,5 @@
 <template>
-	<v-app-bar hide-on-scroll="true" app color="rgba(134,37,210, 0.05)" dark>
+	<v-app-bar hide-on-scroll app color="rgba(134,37,210, 0.05)" dark>
 		<div class="d-flex align-center">
 			<v-img
 				alt="Home logo"
@@ -13,7 +13,7 @@
 
 		<v-spacer></v-spacer>
 
-		<v-menu transition="scroll-x-reverse-transition" left offset-x="offset">
+		<v-menu transition="scroll-x-reverse-transition" left offset-x>
 			<template v-slot:activator="{ on, attrs }">
 				<v-app-bar-nav-icon dark v-bind="attrs" v-on="on" />
 			</template>
