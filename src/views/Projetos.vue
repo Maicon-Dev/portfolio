@@ -1,7 +1,7 @@
 <template>
 	<v-app>
 		<Bar />
-		<v-main pt-0>
+		<v-main>
 			<v-container>
 				<h2>Meus projetos</h2>
 				<p>

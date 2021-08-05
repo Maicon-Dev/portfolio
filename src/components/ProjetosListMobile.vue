@@ -1,5 +1,5 @@
 <template>
-	<v-content class="d-flex d-sm-none">
+	<v-content class="pt-0 d-flex d-sm-none">
 		<v-row class="my-0" v-for="projeto in repositorio.data" :key="projeto">
 			<v-col>
 				<v-card id="card" color="rgb(68, 26, 97)" dark max-width="400">
