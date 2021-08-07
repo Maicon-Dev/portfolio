@@ -20,6 +20,7 @@
               <v-btn
                 v-if="projeto.homepage != null"
                 :href="projeto.homepage"
+								target="_blank"
                 color="purple"
                 rounded
               >
@@ -30,7 +31,7 @@
               </v-btn>
             </div>
 
-						<v-btn :href="projeto.svn_url" icon>
+						<v-btn target="_blank" :href="projeto.svn_url" icon>
 							<v-icon large> mdi-github </v-icon>
 						</v-btn>
 					</v-card-actions>

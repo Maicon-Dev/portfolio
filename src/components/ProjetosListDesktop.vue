@@ -20,6 +20,7 @@
 					<v-btn
 						v-if="projeto.homepage != null"
 						:href="projeto.homepage"
+						target="_blank"
 						color="purple"
 						rounded
 					>
@@ -28,7 +29,7 @@
 					<v-btn v-else disabled color="purple" rounded>
 						Não possui demo
 					</v-btn>
-					<v-btn :href="projeto.svn_url" icon>
+					<v-btn :href="projeto.svn_url" target="_blank" icon>
 						<v-icon> mdi-github </v-icon>
 					</v-btn>
 				</v-card-actions>
