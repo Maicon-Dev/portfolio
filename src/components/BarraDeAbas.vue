@@ -6,8 +6,8 @@
 </template>
 
 <script>
-	import Mobile from "./BarMobile.vue";
-	import Desktop from "./BarDesktop.vue";
+	import Mobile from "./AbaMenor.vue";
+	import Desktop from "./AbaMaior.vue";
 	export default {
 		data: () => ({
 			displaySize: window.innerWidth,

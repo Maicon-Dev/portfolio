@@ -40,7 +40,7 @@
 </template>
 
 <script>
-	import Bar from "@/components/Bar";
+	import Bar from "../components/BarraDeAbas.vue";
 	export default {
 		components: {
 			Bar,

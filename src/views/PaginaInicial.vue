@@ -17,13 +17,8 @@
 						</p>
 
 						<router-link to="/Projetos">
-							<v-btn 
-								dark color="#441a61"
-								x-large
-								rounded
-								class="pa-7"
-							> 
-								Meus projetos 
+							<v-btn dark color="#441a61" x-large rounded class="pa-7">
+								Meus projetos
 							</v-btn>
 						</router-link>
 					</v-col>
@@ -32,47 +27,48 @@
 					</v-col>
 				</v-row>
 			</v-container>
-			<Footer/>
+			<Footer></Footer>
 		</v-main>
 	</v-app>
 </template>
 
 <script>
-	import Bar from "@/components/Bar";
-	import Footer from "@/components/Footer";
-	export default {
-		components: {
-			Bar,
-			Footer,
-		},
-	};
+import Footer from "../components/RodapeDaPagina.vue";
+import Bar from "../components/BarraDeAbas.vue";
+export default {
+	components: {
+		Bar,
+		Footer,
+	},
+};
 </script>
 
 <style>
-	.descricao {
-		color: white;
-		align-items: center;
-		align-self: center;
-	}
+.descricao {
+	color: white;
+	align-items: center;
+	align-self: center;
+}
 
-	#intro {
-		font-size: 5vh;
-		margin-bottom: 0;
-	}
+#intro {
+	font-size: 5vh;
+	margin-bottom: 0;
+}
 
-	h2 {
-		font-size: 5.9vh;
-	}
+h2 {
+	font-size: 5.9vh;
+}
 
-	.row {
-		margin-bottom: 4vh;
-		align-items: center;
-	}
+.row {
+	margin-bottom: 4vh;
+	align-items: center;
+}
 
-	p {
-		font-size: 3vh;
-	}
-	.v-main {
-		align-items: center;
-	}
+p {
+	font-size: 3vh;
+}
+
+.v-main {
+	align-items: center;
+}
 </style>

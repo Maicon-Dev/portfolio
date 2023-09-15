@@ -17,15 +17,12 @@
 </script>
 
 <style>
-	#app {
+	.v-main {
+		max-height: 100%;
 		color: rgb(255, 255, 255);
 		background-color: rgba(24, 16, 44, 1);
 		align-items: center;
 		height: 100%;
-		
-	}
-	.v-main {
-		max-height: 100%;
 	}
 	a {
 		text-decoration: none;

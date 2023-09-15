@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Building from '@/components/EmConstrucao'
-import Bar from '@/components/Bar'
+import Building from '@/components/EmConstrucao';
+import Bar from "../components/BarraDeAbas.vue";
 export default {
   components: {
     Building,
