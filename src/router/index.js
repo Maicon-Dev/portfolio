@@ -1,36 +1,26 @@
 
 import { createRouter, createWebHashHistory } from 'vue-router'
-import MeuCurriculo from '../views/MeuCurriculo'
-import PaginaInicial from '../views/PaginaInicial'
-import ProjetosPessoais from '../views/ProjetosPessoais'
-import SobreMim from '../views/SobreMim'
+import MainPage from '../views/main_page/MainPage.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: PaginaInicial,
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: SobreMim
-  },
-  {
-    path: '/resume',
-    name: 'resume',
-    component: MeuCurriculo
-  },
-  {
-    path: '/Projects',
-    name: 'Projects',
-    component: ProjetosPessoais
-  },
+    name: 'MainPage',
+    component: MainPage,
+  }
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
+  scrollBehavior(to) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    }
+  },
 })
 
 export default router

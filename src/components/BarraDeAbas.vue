@@ -1,21 +1,33 @@
 <template>
-	<div>
-		<Mobile class="d-lg-none" />
-		<Desktop class="d-none d-lg-block" />
-	</div>
+	<v-app-bar class="app-bar" color="rgba(134,37,210, 0.05)" dark>
+		<v-spacer></v-spacer>
+		<router-link to="#home">
+			<v-btn color="#FFFFFF80">
+				<span class="mr-2">Home</span>
+			</v-btn>
+		</router-link>
+		<router-link to="#about"> 
+			<v-btn color="#FFFFFF80">
+				<span class="mr-2">Sobre mim</span>
+			</v-btn>
+		</router-link>
+
+		<router-link to="#experience"> 
+			<v-btn color="#FFFFFF80">
+				<span class="mr-2">Experiências</span>
+			</v-btn>
+		</router-link>
+
+		<router-link to="#testimony">
+			<v-btn color="#FFFFFF80">
+				<span class="mr-2">Depoimentos</span>
+			</v-btn>
+		</router-link>
+	</v-app-bar>
 </template>
 
-<script>
-	import Mobile from "./AbaMenor.vue";
-	import Desktop from "./AbaMaior.vue";
-	export default {
-		data: () => ({
-			displaySize: window.innerWidth,
-		}),
-
-		components: {
-			Mobile,
-			Desktop,
-		},
-	};
+<script setup>
 </script>
+
+<style lang="sass" scoped>
+</style>
