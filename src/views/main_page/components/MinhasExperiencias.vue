@@ -173,5 +173,22 @@ const techsAboveSeen = ref([
     font-size: 48px
     font-weight: 800
     margin-bottom: 60px
-
+  @media (max-width: 800px)
+    &__list
+      display: grid
+      justify-items: center
+      grid-column-gap: 5px
+      grid-row-gap: 15px
+      height: fit-content
+      padding: 0 50px
+      grid-template-columns: 1fr 1fr 1fr 1fr
+    &__icons
+      max-width: 54px
+      max-height: 54px
+      margin: 0
+    &__title
+      font-size: 32px
+      margin-bottom: 20px
+    p
+      font-size: 18px
 </style>
