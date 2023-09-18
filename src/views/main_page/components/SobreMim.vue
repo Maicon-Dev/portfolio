@@ -60,4 +60,15 @@
 		margin-bottom: 24px
 	&__description
 		margin-top: 24px
+
+	@media (max-width: 800px)
+		flex-direction: column
+		justify-content: center
+		padding: 0 40px
+		&__title
+			display: none
+		&__name
+			font-size: 32px
+		&__image
+			margin-bottom: 30px
 </style>

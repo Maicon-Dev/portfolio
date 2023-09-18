@@ -69,7 +69,7 @@
               <span>Tester QA</span>
             </div>
             <a href="https://www.linkedin.com/in/arthur-muller-mendes-76a121202/" target="_blank" class="contact">
-              <v-img alt="Github" contain :src="require('@/assets/github.svg')" width="40" />
+              <v-img alt="Github" contain :src="require('@/assets/github.svg')" />
             </a>
           </div>
         </template>
@@ -119,4 +119,16 @@ import CustomContainer from '@/components/CustomContainer.vue';
     margin-top: 20px
     bottom: 0
 
+  @media (max-width: 800px)
+    &__list
+      flex-direction: column
+    &__item
+      width: 100%
+    &__footer
+      align-items: center
+    &__witness
+      font-size: 14px
+      margin-right: 20px
+    a
+      width: 30px
 </style>
