@@ -18,6 +18,12 @@
 			</v-btn>
 		</router-link>
 
+		<router-link to="#projects"> 
+			<v-btn color="#FFFFFF80">
+				<span class="mr-2">Projetos</span>
+			</v-btn>
+		</router-link>
+
 		<router-link to="#testimony">
 			<v-btn color="#FFFFFF80">
 				<span class="mr-2">Depoimentos</span>

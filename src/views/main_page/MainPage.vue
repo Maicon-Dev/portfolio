@@ -10,6 +10,7 @@
       <div class="line"></div>
       <MinhaTrajetoria />
       <div class="line"></div>
+      <MeusProjetos id="projects"/>
       <EmDepoimento id="testimony"/>
     </v-main>
   </v-app>
@@ -22,6 +23,7 @@ import SobreMim from './components/SobreMim.vue'
 import MinhasExperiencias from './components/MinhasExperiencias.vue'
 import EmDepoimento from "./components/EmDepoimento.vue";
 import MinhaTrajetoria from './components/MinhaTrajetoria.vue';
+import MeusProjetos from "./components/MeusProjetos.vue";
 </script>
 
 <style lang="sass" scoped>
